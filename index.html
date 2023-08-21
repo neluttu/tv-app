@@ -16,7 +16,7 @@
 <body class="bg-gradient-to-b from-[#054041] to-[#054041] flex items-start justify-center min-h-screen">
 	<div class="w-full max-w-[1540px] bg-gradient-to-b from-[#000a0d] to-transparent min-h-[400px] mt-20">
         <ul class="flex items-start justify-start gap-4">
-            <li class="py-5">
+            <li class="hidden py-5 xl:block">
                 <div class="py-4 hover:bg-[#074542] text-[#848d91] transition-all duration-150 ease-in group rounded-tr-md rounded-br-md cursor-pointer">
                     <h2 class="px-12 text-2xl group-hover:text-[#25e6da] transition-all duration-150 ease-in font-semibold leading-6">MOVIES</h2>
                     <p class="px-12 group-hover:text-[#c7cddb] leading-5 transition-all duration-150 ease-in text-base">18 Channels</p>
@@ -76,29 +76,109 @@
                         <path d="M4 18l16 0" />
                     </svg>
                 </nav>
-                <section class="flex items-start justify-start w-full gap-8 px-6 mt-10">
-                    <div class="relative w-1/3">
+                <section class="flex flex-wrap items-start justify-start w-full gap-8 px-6 mt-10 gap-y-12">
+                    <div class="relative w-full lg:w-[31%]">
                         <div class="absolute top-0 w-full py-2 bg-white/40">
                             <img src="https://neluttu.github.io/tv-app/history.png" class="h-[30px] px-4 box-content">
                         </div>
-                        <img src="https://flxt.tmsimg.com/assets/p11364690_b1t_h8_ab.jpg">
+                        <img src="https://flxt.tmsimg.com/assets/p11364690_b1t_h8_ab.jpg" class=" w-full h-[240px] object-cover object-center">
                         <h3 class="text-[#dbe1e4] text-2xl">VIKINGS</h3>
-                    </div>
-                    <div class="relative w-1/3">
-                        <div class="absolute top-0 w-full py-2 bg-white/40">
-                            <img src="hulu.png" class="h-[30px] px-4 box-content">
+                        <div class="flex text-[#848d91] text-lg">
+                            <span class="grow">Portage S4, Ep. 8</span>
+                            <span>28 min. left</span>
                         </div>
-                        <img src="https://flxt.tmsimg.com/assets/p11364690_b1t_h8_ab.jpg">
-                    </div>
-                    <div class="relative w-1/3">
-                        <div class="absolute top-0 w-full py-2 bg-white/40">
-                            <img src="cbs.png" class="h-[30px] px-4 box-content">
+                        <div class="w-full h-[3px] bg-[#898a91] mt-4 relative">
+                            <div class="w-1/2 h-[12px] bg-[#1eeed8] absolute -top-[4px]"></div>
                         </div>
-                        <img src="https://flxt.tmsimg.com/assets/p11364690_b1t_h8_ab.jpg">
+                    </div>
+                    <div class="relative w-full lg:w-[31%]">
+                        <div class="absolute top-0 w-full py-2 bg-white/40">
+                            <img src="https://neluttu.github.io/tv-app/hbo.png" class="h-[30px] px-4 box-content">
+                        </div>
+                        <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2019/05/Game-of-Thrones-Poster.jpg" class=" w-full h-[240px] object-cover object-center">
+                        <h3 class="text-[#dbe1e4] text-2xl">GAME OF THRONES</h3>
+                        <div class="flex text-[#848d91] text-lg">
+                            <span class="grow">The Red Woman S6, Ep. 1</span>
+                            <span>13 min. left</span>
+                        </div>
+                        <div class="w-full h-[3px] bg-[#898a91] mt-4 relative">
+                            <div class="w-[80%] h-[12px] bg-[#1eeed8] absolute -top-[4px]"></div>
+                        </div>
+                    </div>
+                    <div class="relative w-full lg:w-[31%]">
+                        <div class="absolute top-0 w-full py-2 bg-white/40">
+                            <img src="https://neluttu.github.io/tv-app/cbs.png" class="h-[30px] px-4 box-content">
+                        </div>
+                        <img src="https://www.themoviedb.org/t/p/original/euKFiO5M125rpngFRBbSW83beeI.jpg" class=" w-full h-[240px] object-cover object-center">
+                        <h3 class="text-[#dbe1e4] text-2xl">THE BIG BANG THEORY</h3>
+                        <div class="flex text-[#848d91] text-lg">
+                            <span class="grow">The Viewing Party S9, Ep. 12</span>
+                            <span>5 min. left</span>
+                        </div>
+                        <div class="w-full h-[3px] bg-[#898a91] mt-4 relative">
+                            <div class="w-[90%] h-[12px] bg-[#1eeed8] absolute -top-[4px]"></div>
+                        </div>
+                    </div>
+                    <div class="relative w-full lg:w-[31%]">
+                        <div class="absolute top-0 w-full py-2 bg-white/40">
+                            <img src="https://neluttu.github.io/tv-app/hulu.png" class="h-[30px] px-4 box-content">
+                        </div>
+                        <img src="https://www.tallengestore.com/cdn/shop/products/Poster_-_Orange_Is_The_New_Black_-_Cast_2_-_TV_Show_Collection_ebd61b50-1b7f-4e51-a582-35252d0804f3.jpg?v=1537864200" class=" w-full h-[240px] object-cover object-center">
+                        <h3 class="text-[#dbe1e4] text-2xl">ORANGE IS THE NEW BLACK</h3>
+                        <div class="flex text-[#848d91] text-lg">
+                            <span class="grow">Trust no bitch S3, Ep. 13</span>
+                            <span>12 min. left</span>
+                        </div>
+                        <div class="w-full h-[3px] bg-[#898a91] mt-4 relative">
+                            <div class="w-[70%] h-[12px] bg-[#1eeed8] absolute -top-[4px]"></div>
+                        </div>
+                    </div>
+                    <div class="relative w-full lg:w-[31%]">
+                        <div class="absolute top-0 w-full py-2 bg-white/40">
+                            <img src="https://neluttu.github.io/tv-app/usa.png" class="h-[30px] px-4 box-content">
+                        </div>
+                        <img src="https://m.media-amazon.com/images/I/71eo2tqEdKL._AC_SY679_.jpg" class=" w-full h-[240px] object-cover object-center">
+                        <h3 class="text-[#dbe1e4] text-2xl">MR. ROBOT</h3>
+                        <div class="flex text-[#848d91] text-lg">
+                            <span class="grow">W1ter0se S1, Ep. 6</span>
+                            <span>38 min. left</span>
+                        </div>
+                        <div class="w-full h-[3px] bg-[#898a91] mt-4 relative">
+                            <div class="w-[25%] h-[12px] bg-[#1eeed8] absolute -top-[4px]"></div>
+                        </div>
+                    </div>
+                    <div class="relative w-full lg:w-[31%]">
+                        <div class="absolute top-0 w-full py-2 bg-white/40">
+                            <img src="https://neluttu.github.io/tv-app/usa.png" class="h-[30px] px-4 box-content">
+                        </div>
+                        <img src="https://cdn.europosters.eu/image/1300/calendars/modern-family-tv-i27186.jpg" class=" w-full h-[240px] object-cover object-center">
+                        <h3 class="text-[#dbe1e4] text-2xl">MODERN FAMILY</h3>
+                        <div class="flex text-[#848d91] text-lg">
+                            <span class="grow">Phil on wire S3, Ep. 2</span>
+                            <span>5 min. left</span>
+                        </div>
+                        <div class="w-full h-[3px] bg-[#898a91] mt-4 relative">
+                            <div class="w-[90%] h-[12px] bg-[#1eeed8] absolute -top-[4px]"></div>
+                        </div>
                     </div>
                 </section>
             </li>
         </ul>
+        <h2 class="text-3xl font-semibold px-14 text-[#25e6da] mt-16 mb-6">FEATURED</h2>
+        <section class="flex flex-wrap items-start justify-start w-full gap-6 mb-20 px-14">
+            <div class="w-full sm:w-[47%] md:w-[31%] lg:w-[22%] cursor-pointer">
+                <img src="https://m.media-amazon.com/images/M/MV5BODEwZjEzMjAtNjQxMy00Yjc4LWFlMDAtYjhjZTAxNDU3OTg3XkEyXkFqcGdeQXVyOTM2NTM4MjA@._V1_.jpg"  class="object-center w-full max-h-[360px]">
+            </div>
+            <div class="w-full sm:w-[47%] md:w-[31%] lg:w-[22%] cursor-pointer">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUze4AkvS2kVnaESTkb9AU7M1fLVgs6vTII2Rm_ZjndabC-A7_FI_bbZINpSJK39Mmwh0&usqp=CAU" class="object-center w-full max-h-[360px]">
+            </div>
+            <div class="w-full sm:w-[47%] md:w-[31%] lg:w-[22%] cursor-pointer">
+                <img src="https://www.themoviedb.org/t/p/original/97FvEYBZaclReIVgN17wH4YnLLO.jpg"  class="object-center w-full max-h-[360px]">
+            </div>
+            <div class="w-full sm:w-[47%] md:w-[31%] lg:w-[22%] cursor-pointer">
+                <img src="https://lumiere-a.akamaihd.net/v1/images/image_8c4aa72b.jpeg?region=0%2C0%2C800%2C1200"  class="object-center w-full max-h-[360px]">
+            </div>
+        </section>
     </div>
 </body>
 </html>
